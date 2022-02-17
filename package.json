@@ -1,0 +1,34 @@
+{
+  "name": "authmax",
+  "version": "1.0.0",
+  "description": "A very powerful authorization middleware for expressJS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamfx/authmax.git"
+  },
+  "keywords": [
+    "auth",
+    "authorization",
+    "middleware",
+    "express",
+    "condition",
+    "role",
+    "permission",
+    "multilevel"
+  ],
+  "author": "shivam-sharma",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
